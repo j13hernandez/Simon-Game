@@ -73,6 +73,5 @@ $('.btn').click(function () {
   userClickedPattern.push(userChosenColor);
   animatePress(userChosenColor);
   playSound(userChosenColor);
-  console.log(userClickedPattern.indexOf(userChosenColor, level - 1), 'level');
   checkAnswer();
 });
